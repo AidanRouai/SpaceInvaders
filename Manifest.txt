@@ -1,0 +1,47 @@
+Logic for the game has been acquired from https://www.youtube.com/watch?v=qWDQgmdUzWI, and has been modified to fit the assignment requirements.
+
+Name: Player.cs
+Purpose: Manages player actions and interactions
+Pattern or principle included: Single responsibility 
+
+Name: PlayerMovement.cs
+Purpose: Handles player movement 
+Pattern or principle included: Single responsibility
+
+Name: PlayerAttack.cs
+Purpose: Manages the shooting mechanics for the player. 
+Pattern or principle included: Single responsibility 
+
+Name: Projectile.cs
+Purpose: Handles projectile movement and collision
+Pattern or principle included: Single responsibility
+
+Name: InvaderFactory.cs
+Purpose: Creates and manages invader objects
+Pattern or principle included: Factory pattern
+
+Name: Invader.cs
+Purpose:Focuses on invader-specific behavior, such as animation and collision detection.
+Pattern or principle included: Open/Closed principle 
+
+Name: PlayerCollisionHandler
+Purpose: Handle player collisions (Invaders, or missiles)
+Pattern: Chain of responsibility
+
+Name: InvaderCollisionHandler
+Purpose: Handle invader collisions 
+Pattern: Chain of responsibility
+
+Name: IProjectile
+Purpose: Allows for different types of projectiles to be implemented without modifying existing code.
+Pattern: Open/Closed principle 
+
+Name: BulletProjectile
+Purpose: Implements the IProjectile interface, allowing for extension without modification.
+Pattern: Open/Closed principle
+
+Name: IHandler 
+Purpose: Allows link in chain of responsibility
+Pattern: Chain of responsibility
+
+
