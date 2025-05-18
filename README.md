@@ -59,10 +59,8 @@ A modern Unity-based recreation of the classic **Space Invaders** game, built us
 ### Installation
 ```bash
 git clone https://github.com/AidanRouai/SpaceInvaders
-
-- Open the project in Unity.
-
-- Build the project
+Open the project in Unity.
+Build the project
 
 ## 🎮 Controls
 Key	Action
