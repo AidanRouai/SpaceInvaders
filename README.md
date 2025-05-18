@@ -62,11 +62,15 @@ git clone https://github.com/AidanRouai/SpaceInvaders
 Open the project in Unity.
 Build the project
 
+---
+
 ## 🎮 Controls
 Key	Action
 ← / →	Move player
 Spacebar	Shoot
 ESC	Pause game
+
+---
 
 ## 📁 Project Structure
 
@@ -78,6 +82,8 @@ SpaceInvaders/
 │   └── Sprites/
 ├── Packages/
 └── ProjectSettings/
+
+---
 
 ## 📌 Notes
 This implementation builds on a tutorial but is restructured with scalable, production-grade practices. Ideal for those looking to learn Unity with proper software architecture.
