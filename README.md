@@ -50,6 +50,30 @@ A modern Unity-based recreation of the classic **Space Invaders** game, built us
 
 ---
 
+## 🎮 Controls
+### Key	Action
+- ← / →	Move player
+- Spacebar	Shoot
+- ESC	Pause game
+
+---
+
+## 📁 Project Structure
+
+SpaceInvaders/
+- ├── Assets/
+- │   ├── Prefabs/
+- │   ├── Scenes/
+- │   ├── Scripts/
+- │   └── Sprites/
+- ├── Packages/
+- └── ProjectSettings/
+
+---
+
+## 📌 Notes
+- This implementation builds on a tutorial but is restructured with scalable, production-grade practices. Ideal for those looking to learn Unity with proper software architecture.
+
 ## ▶️ How to Run
 
 ### Prerequisites
@@ -59,31 +83,5 @@ A modern Unity-based recreation of the classic **Space Invaders** game, built us
 ### Installation
 ```bash
 git clone https://github.com/AidanRouai/SpaceInvaders
-Open the project in Unity.
-Build the project
-
----
-
-## 🎮 Controls
-Key	Action
-← / →	Move player
-Spacebar	Shoot
-ESC	Pause game
-
----
-
-## 📁 Project Structure
-
-SpaceInvaders/
-├── Assets/
-│   ├── Prefabs/
-│   ├── Scenes/
-│   ├── Scripts/
-│   └── Sprites/
-├── Packages/
-└── ProjectSettings/
-
----
-
-## 📌 Notes
-This implementation builds on a tutorial but is restructured with scalable, production-grade practices. Ideal for those looking to learn Unity with proper software architecture.
+- Open the project in Unity.
+- Build the project
