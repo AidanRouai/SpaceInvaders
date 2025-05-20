@@ -83,5 +83,6 @@ SpaceInvaders/
 ### Installation
 ```bash
 git clone https://github.com/AidanRouai/SpaceInvaders
+```
 - Open the project in Unity.
 - Build the project
